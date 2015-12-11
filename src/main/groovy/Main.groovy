@@ -1,4 +1,6 @@
+import diff.Fibonacci
 import tests.EvenFibNumSum
+import tests.SumSquareDiff
 
 /**
  * Created by vitaliy.vorona on 12/7/2015.
@@ -14,7 +16,7 @@ class Main {
             println i
         }*/
 
-        EvenFibNumSum efv = new EvenFibNumSum();
-        println efv.findingFib(1000);
+        SumSquareDiff ssd = new SumSquareDiff();
+        println ssd.squareSum(10);
     }
 }
